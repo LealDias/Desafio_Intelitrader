@@ -1,0 +1,14 @@
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\bin\Debug\net8.0\Criptografia Navio.exe
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\bin\Debug\net8.0\Criptografia Navio.deps.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\bin\Debug\net8.0\Criptografia Navio.runtimeconfig.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\bin\Debug\net8.0\Criptografia Navio.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\bin\Debug\net8.0\Criptografia Navio.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\Criptografia Navio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\Criptografia Navio.AssemblyInfoInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\Criptografia Navio.AssemblyInfo.cs
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\Criptografia Navio.csproj.CoreCompileInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\Criptografia Navio.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\refint\Criptografia Navio.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\Criptografia Navio.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\Criptografia Navio.genruntimeconfig.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Criptografia Navio\obj\Debug\net8.0\ref\Criptografia Navio.dll

@@ -1,0 +1,28 @@
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\bin\Debug\net8.0\Desafio Intelitrade.exe
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\bin\Debug\net8.0\Desafio Intelitrade.deps.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\bin\Debug\net8.0\Desafio Intelitrade.runtimeconfig.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\bin\Debug\net8.0\Desafio Intelitrade.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\bin\Debug\net8.0\Desafio Intelitrade.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\Desafio Intelitrade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\Desafio Intelitrade.AssemblyInfoInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\Desafio Intelitrade.AssemblyInfo.cs
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\Desafio Intelitrade.csproj.CoreCompileInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\Desafio Intelitrade.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\refint\Desafio Intelitrade.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\Desafio Intelitrade.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\Desafio Intelitrade.genruntimeconfig.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\obj\Debug\net8.0\ref\Desafio Intelitrade.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\bin\Debug\net8.0\Desafio Intelitrade.exe
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\bin\Debug\net8.0\Desafio Intelitrade.deps.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\bin\Debug\net8.0\Desafio Intelitrade.runtimeconfig.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\bin\Debug\net8.0\Desafio Intelitrade.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\bin\Debug\net8.0\Desafio Intelitrade.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\Desafio Intelitrade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\Desafio Intelitrade.AssemblyInfoInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\Desafio Intelitrade.AssemblyInfo.cs
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\Desafio Intelitrade.csproj.CoreCompileInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\Desafio Intelitrade.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\refint\Desafio Intelitrade.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\Desafio Intelitrade.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\Desafio Intelitrade.genruntimeconfig.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Menor Distancia\obj\Debug\net8.0\ref\Desafio Intelitrade.dll

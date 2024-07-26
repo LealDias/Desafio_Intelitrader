@@ -1,0 +1,14 @@
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\bin\Debug\net8.0\Livro de Ofertas.exe
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\bin\Debug\net8.0\Livro de Ofertas.deps.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\bin\Debug\net8.0\Livro de Ofertas.runtimeconfig.json
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\bin\Debug\net8.0\Livro de Ofertas.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\bin\Debug\net8.0\Livro de Ofertas.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\Livro de Ofertas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\Livro de Ofertas.AssemblyInfoInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\Livro de Ofertas.AssemblyInfo.cs
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\Livro de Ofertas.csproj.CoreCompileInputs.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\Livro de Ofertas.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\refint\Livro de Ofertas.dll
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\Livro de Ofertas.pdb
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\Livro de Ofertas.genruntimeconfig.cache
+C:\Users\Diego Leal\Desktop\Desafio Intelitrade\Livro de Ofertas\obj\Debug\net8.0\ref\Livro de Ofertas.dll
