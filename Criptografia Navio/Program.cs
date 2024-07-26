@@ -1,75 +1,51 @@
-﻿using System;
-using System.Text;
+using System;
+using System.Collections.Generic;
 
-public class Program
+class Program
 {
-    public static void Main()
+    static void Main()
     {
-        string binaryMessage = "10010110 11110111 01010110 00000001 00010111 00100110 01010111 00000001 00010111 01110110 01010111 00110110 11110111 11010111 01010111 00000011";
-        string[] binaryBytes = binaryMessage.Split(' ');
+        string encryptedMessage = "10010110 11110111 01010110 00000001 00010111 00100110 01010111 00000001 00010111 01110110 01010111 00110110 11110111 11010111 01010111 00000011";
+        
+        string[] arrayBinarioDecodificado = ChaveDeDecodificacao(encryptedMessage);
+        string texto = BinarioParaTexto(arrayBinarioDecodificado);
 
-        Console.WriteLine("Descriptografando byte a byte:");
-        DescriptografarByteAbyte(binaryBytes);
-
-        Console.WriteLine("\nDescriptografando de forma sequencial:");
-        DescriptografarSequencial(binaryMessage.Replace(" ", ""));
+        Console.WriteLine($"Mensagem Criptografada: {encryptedMessage}");
+        Console.WriteLine($"Mensagem Descriptografada: {string.Join(" ", arrayBinarioDecodificado)}");
+        Console.WriteLine($"Mensagem: {texto}");
     }
 
-    private static void DescriptografarByteAbyte(string[] binaryBytes)
+    static string[] ChaveDeDecodificacao(string mensagem)
     {
-        StringBuilder result = new StringBuilder();
-        
-        foreach (var binaryByte in binaryBytes)
+        string[] arrayLetrasBinarias = mensagem.Split(' ');
+        List<string> arrayLetrasBinariasDecodificado = new List<string>();
+
+        foreach (string itemDoArray in arrayLetrasBinarias)
         {
-            Console.WriteLine($"Processando byte original: {binaryByte}");
+            string parte1 = itemDoArray.Substring(0, itemDoArray.Length / 2);
+            string parte2 = itemDoArray.Substring(itemDoArray.Length / 2, itemDoArray.Length / 2);
+            char[] arrayParte2 = parte2.ToCharArray();
 
-            // Invertendo os dois últimos bits
-            char[] bits = binaryByte.ToCharArray();
-            char temp = bits[6];
-            bits[6] = bits[7];
-            bits[7] = temp;
-            Console.WriteLine($"Após inverter os dois últimos bits: {new string(bits)}");
+            arrayParte2[parte2.Length - 2] = arrayParte2[parte2.Length - 2] == '1' ? '0' : '1';
+            arrayParte2[parte2.Length - 1] = arrayParte2[parte2.Length - 1] == '1' ? '0' : '1';
 
-            // Trocando os 4 primeiros bits com os 4 últimos
-            string swappedBits = new string(bits, 4, 4) + new string(bits, 0, 4);
-            Console.WriteLine($"Após trocar os 4 primeiros bits com os 4 últimos: {swappedBits}");
+            string BinarioParte2ComOsUltimosInvertidos = new string(arrayParte2);
+            string novoItemTrocandoPartesDeLugar = BinarioParte2ComOsUltimosInvertidos + parte1;
 
-            // Convertendo para caractere ASCII
-            int asciiValue = Convert.ToInt32(swappedBits, 2);
-            char character = (char)asciiValue;
-            result.Append(character);
+            arrayLetrasBinariasDecodificado.Add(novoItemTrocandoPartesDeLugar);
         }
         
-        Console.WriteLine($"Mensagem descriptografada: {result.ToString()}");
+        return arrayLetrasBinariasDecodificado.ToArray();
     }
 
-    private static void DescriptografarSequencial(string binaryMessage)
+    static string BinarioParaTexto(string[] listaBinarios)
     {
-        StringBuilder result = new StringBuilder();
-        int length = binaryMessage.Length;
-
-        for (int i = 0; i < length; i += 8)
+        string texto = "";
+        foreach (string bloco in listaBinarios)
         {
-            string binaryByte = binaryMessage.Substring(i, 8);
-            Console.WriteLine($"Processando byte original: {binaryByte}");
-
-            // Invertendo os dois últimos bits
-            char[] bits = binaryByte.ToCharArray();
-            char temp = bits[6];
-            bits[6] = bits[7];
-            bits[7] = temp;
-            Console.WriteLine($"Após inverter os dois últimos bits: {new string(bits)}");
-
-            // Trocando os 4 primeiros bits com os 4 últimos
-            string swappedBits = new string(bits, 4, 4) + new string(bits, 0, 4);
-            Console.WriteLine($"Após trocar os 4 primeiros bits com os 4 últimos: {swappedBits}");
-
-            // Convertendo para caractere ASCII
-            int asciiValue = Convert.ToInt32(swappedBits, 2);
-            char character = (char)asciiValue;
-            result.Append(character);
+            int ascii = Convert.ToInt32(bloco, 2);
+            texto += (char)ascii;
         }
-
-        Console.WriteLine($"Mensagem descriptografada: {result.ToString()}");
+        return texto;
     }
 }
